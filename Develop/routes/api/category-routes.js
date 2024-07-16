@@ -52,7 +52,7 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({ message: 'Category not found' });
     }
   } catch (error) {
-    res.status(500).json({message: 'Category not found' });
+    res.status(500).json({ message: 'Category not found' });
   }
 });
 
